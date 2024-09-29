@@ -1,0 +1,10 @@
+export { default as Label } from './Label';
+export { default as Text } from './typography/Text';
+export { default as ErrorLabel } from './ErrorLabel';
+export { default as Input } from './input/index';
+export { default as Button } from './button/index';
+export { default as CheckBox } from './checkbox/index';
+// export { default as StatusText } from './statusText/index';
+export { default as Select } from './select/index';
+export { default as Dropdown } from './dropDown/index';
+export { default as Switch } from './switch/index';
