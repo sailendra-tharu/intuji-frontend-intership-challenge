@@ -4,7 +4,7 @@ interface IPasswordIcon {
   color?: string;
 }
 
-const PasswordIcon = ({ className, onClick, color }: IPasswordIcon) => {
+const PasswordIcon = ({ className, onClick}: IPasswordIcon) => {
   return (
     <svg
       className={className}

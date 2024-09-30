@@ -4,7 +4,7 @@ interface IPendingButtonIcon {
   color?: string;
 }
 
-const PendingButtonIcon = ({ className, onClick, color }: IPendingButtonIcon) => {
+const PendingButtonIcon = ({ className, onClick }: IPendingButtonIcon) => {
   return (
     <svg
       className={className}

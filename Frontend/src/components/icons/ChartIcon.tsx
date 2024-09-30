@@ -4,7 +4,7 @@ interface IChartIcon {
   color?: string;
 }
 
-const ChartIcon = ({ className, onClick, color }: IChartIcon) => {
+const ChartIcon = ({ className, onClick}: IChartIcon) => {
   return (
     <svg
       className={className}

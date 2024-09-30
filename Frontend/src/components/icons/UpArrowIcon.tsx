@@ -4,7 +4,7 @@ interface IUpArrowIcon {
   color?: string;
 }
 
-const UpArrowIcon = ({ className, onClick, color }: IUpArrowIcon) => {
+const UpArrowIcon = ({ className, onClick }: IUpArrowIcon) => {
   return (
     <svg
       className={className}

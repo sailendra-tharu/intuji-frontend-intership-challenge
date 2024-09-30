@@ -4,7 +4,7 @@ interface IDeliveryCircleIcon {
   color?: string;
 }
 
-const DeliveryCircleIcon = ({ className, onClick, color }: IDeliveryCircleIcon) => {
+const DeliveryCircleIcon = ({ className, onClick }: IDeliveryCircleIcon) => {
   return (
     <svg
       className={className}

@@ -4,7 +4,7 @@ interface IExportIcon {
   color?: string;
 }
 
-const ExportIcon = ({ className, onClick, color }: IExportIcon) => {
+const ExportIcon = ({ className, onClick }: IExportIcon) => {
   return (
     <svg
       className={className}

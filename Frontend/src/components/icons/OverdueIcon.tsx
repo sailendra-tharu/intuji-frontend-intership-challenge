@@ -4,7 +4,7 @@ interface OverdueIcon {
   color?: string;
 }
 
-const OverdueIcon = ({ className, onClick, color }: OverdueIcon) => {
+const OverdueIcon = ({ className, onClick }: OverdueIcon) => {
   return (
     <svg
       className={className}

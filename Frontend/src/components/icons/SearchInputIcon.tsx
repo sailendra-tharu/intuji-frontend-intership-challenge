@@ -4,7 +4,7 @@ interface ISearchInputIcon {
   color?: string;
 }
 
-const SearchInputIcon = ({ className, onClick, color }: ISearchInputIcon) => {
+const SearchInputIcon = ({ className, onClick }: ISearchInputIcon) => {
   return (
     <svg
       className={className}

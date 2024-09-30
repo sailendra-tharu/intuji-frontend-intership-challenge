@@ -4,7 +4,7 @@ interface InActiveProductsIconProps {
   color?: string;
 }
 
-const InActiveProductsIcon = ({ className, onClick, color }: InActiveProductsIconProps) => {
+const InActiveProductsIcon = ({ className, onClick }: InActiveProductsIconProps) => {
   return (
     <svg
       className={className}

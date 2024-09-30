@@ -4,7 +4,7 @@ interface IPlusCircleIcon {
   color?: string;
 }
 
-const PlusCircleIcon = ({ className, onClick, color }: IPlusCircleIcon) => {
+const PlusCircleIcon = ({ className, onClick}: IPlusCircleIcon) => {
   return (
     <svg
       className={className}

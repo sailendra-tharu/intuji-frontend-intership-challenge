@@ -4,7 +4,7 @@ interface IImportIcon {
   color?: string;
 }
 
-const ImportIcon = ({ className, onClick, color }: IImportIcon) => {
+const ImportIcon = ({ className, onClick}: IImportIcon) => {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'

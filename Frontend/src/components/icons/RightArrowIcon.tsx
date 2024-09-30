@@ -4,7 +4,7 @@ interface IRightArrowIcon {
   color?: string;
 }
 
-const RightArrowIcon = ({ className, onClick, color }: IRightArrowIcon) => {
+const RightArrowIcon = ({ className, onClick}: IRightArrowIcon) => {
   return (
     <svg
       className={className}

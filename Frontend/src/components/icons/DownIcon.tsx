@@ -4,7 +4,7 @@ interface IDownIcon {
   color?: string;
 }
 
-const DownIcon = ({ className, onClick, color }: IDownIcon) => {
+const DownIcon = ({ className, onClick}: IDownIcon) => {
   return (
     <svg
       className={className}

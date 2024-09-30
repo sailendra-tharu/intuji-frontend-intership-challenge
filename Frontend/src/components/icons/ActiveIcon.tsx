@@ -4,7 +4,7 @@ interface IActiveIcon {
   color?: string;
 }
 
-const ActiveIcon = ({ className, onClick, color }: IActiveIcon) => {
+const ActiveIcon = ({ className, onClick}: IActiveIcon) => {
   return (
     <svg
       className={className}

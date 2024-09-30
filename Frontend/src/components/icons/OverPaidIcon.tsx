@@ -4,7 +4,7 @@ interface OverPaidIcon {
   color?: string;
 }
 
-const OverPaidIcon = ({ className, onClick, color }: OverPaidIcon) => {
+const OverPaidIcon = ({ className, onClick}: OverPaidIcon) => {
   return (
     <svg
       className={className}

@@ -26,8 +26,7 @@ const RejectModal = ({
   handleCancel,
   handleReject,
   loading,
-  initials,
-  id,
+  
 }: RejectModalProps) => {
   const rejectHandler = (data: any) => {
     handleReject(data);
@@ -37,7 +36,6 @@ const RejectModal = ({
     methods: {
       control,
       formState: { errors },
-      reset,
     },
   } = useRHForm({
     initialValues: {},

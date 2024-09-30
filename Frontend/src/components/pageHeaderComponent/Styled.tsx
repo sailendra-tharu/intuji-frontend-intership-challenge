@@ -2,7 +2,6 @@ import { Tag } from 'antd';
 import Dragger from 'antd/es/upload/Dragger';
 import styled, { css } from 'styled-components';
 import 'react-perfect-scrollbar/dist/css/styles.css';
-import PerfectScrollbar from 'react-perfect-scrollbar';
 
 interface CardTagStatusProps {
   type?: string;

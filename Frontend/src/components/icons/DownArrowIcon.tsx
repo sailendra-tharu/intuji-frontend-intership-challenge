@@ -4,7 +4,7 @@ interface IDownArrowIcon {
   color?: string;
 }
 
-const DownArrowIcon = ({ className, onClick, color }: IDownArrowIcon) => {
+const DownArrowIcon = ({ className, onClick }: IDownArrowIcon) => {
   return (
     <svg
       className={className}
