@@ -1,4 +1,4 @@
-import React from 'react';
+
 interface ITopSellingIcon {
   className?: string;
   onClick?: () => void;

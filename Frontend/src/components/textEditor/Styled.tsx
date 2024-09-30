@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import styled from 'styled-components';
-import { CKEditor } from '@ckeditor/ckeditor5-react';
+// import { CKEditor } from '@ckeditor/ckeditor5-react';
 
 export const EditorWrapper = styled.div`
   font-family: Inter !important;
@@ -61,8 +61,8 @@ export const EditorWrapper = styled.div`
   }
 `;
 
-export const StyledCKEditor = styled(CKEditor)`
-  .ck-editor__editable {
-    height: 30vh;
-  }
-`;
+// export const StyledCKEditor = styled(CKEditor)`
+//   .ck-editor__editable {
+//     height: 30vh;
+//   }
+// `;
