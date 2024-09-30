@@ -27,7 +27,7 @@ const App = () => {
       <Form onSubmit={handleclick}>
         <ControlledField
               control={control}
-              label="first Name"
+              label="first Names"
               name='firstName'
               errors={errors}
               Component={Input}
