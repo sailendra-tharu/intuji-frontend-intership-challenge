@@ -25,12 +25,12 @@ jobs:
 
       - name: Install frontend dependencies
         run: |
-          cd frontend
+          cd Frontend
           npm install
 
       - name: Lint frontend
         run: |
-          cd frontend
+          cd Frontend
           npm run lint
 
       - name: Build frontend
@@ -40,7 +40,7 @@ jobs:
 
       - name: Run frontend tests
         run: |
-          cd frontend
+          cd Frontend
           npm test
 
   # Backend job
@@ -74,10 +74,10 @@ jobs:
 
       - name: Lint backend
         run: |
-          cd backend
+          cd server
           npm run lint
 
-      - name: Build backend
+      - name: Build server
         run: |
-          cd backend
+          cd server
           npm run build
